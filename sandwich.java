@@ -50,7 +50,7 @@
 
 // 4> inverted triangle
 
-// public class  invertedTriangle{
+// public class  inverteTriangle{
 //     public static void main(String[] args) {
 //         int n=5;
 //         for (int i = 1; i <=n; i++){
@@ -87,7 +87,7 @@
 
 // 6> diamond printing
 
-// public class diamondPrinting {
+// public class diamondstarPrinting {
 //     public static void main(String[] args) {
 //         int n=5;
 //          // upper half 
@@ -123,7 +123,7 @@
 
 // 7> inverted pyramid
 
-// public class invertedPyramid{
+// public class invertedStarPyramid{
 //     public static void main(String[] args) {
 //         int n=5;
 //         for(int i=1; i<=n;i++){
@@ -147,7 +147,7 @@
 
    // 8 > left half diamond
 
-   // public class leftHandDiamond{
+   // public class leftHandStarDiamond{
    //    public static void main(String[] args) {
    //        int n=5;
    //        for(int i = 1;i<=n;i++){
@@ -254,4 +254,49 @@
 //     }
 // }
 
-   
+   // sanwich pattern
+
+// public class sandwich {
+//     public static void main(String[] args) {
+
+//         int n = 5;
+
+//         // Upper half
+//         for (int i = 0; i < n / 2 + 1; i++) {
+
+//             // Print spaces
+//             for (int j = 0; j < i; j++) {
+//                 System.out.print("  ");
+//             }
+
+//             // Print numbers
+//             int num = 3 + i;
+//             int count = n - 2 * i;
+
+//             for (int j = 0; j < count; j++) {
+//                 System.out.print(num + " ");
+//             }
+
+//             System.out.println();
+//         }
+
+//         // Lower half
+//         for (int i = n / 2 - 1; i >= 0; i--) {
+
+//             // Print spaces
+//             for (int j = 0; j < i; j++) {
+//                 System.out.print("  ");
+//             }
+
+//             // Print numbers
+//             int num = 3 + i;
+//             int count = n - 2 * i;
+
+//             for (int j = 0; j < count; j++) {
+//                 System.out.print(num + " ");
+//             }
+
+//             System.out.println();
+//         }
+//     }
+// }
